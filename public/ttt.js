@@ -1,6 +1,5 @@
-var socket = io.connect();
-var myTurn = true;
-var  symbol;
+var socket = io.connect(), 
+    myTurn = true, symbol;
 
 // One of the rows must be equal to either of these
 // value for
